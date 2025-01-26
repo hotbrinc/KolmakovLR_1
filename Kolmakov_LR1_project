@@ -77,5 +77,7 @@ void findIntegerPartSum() {
 }
 
 void findFractionalPartGeometricMean() {
-    //Разрабатывает Колмаков В.Г. в branch_2
+ double geometric_mean = cbrt(fabs(x) * fabs(y) * fabs(z));
+    double fractional_part_geometric_mean = geometric_mean - floor(geometric_mean);
+    std::cout << "Дробная часть среднего геометрического модулей: " << fractional_part_geometric_mean << std::endl;
 }
