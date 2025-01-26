@@ -71,7 +71,9 @@ void inputZ() {
 }
 
 void findIntegerPartSum() {
-    //Разрабатывает Колмаков В.Г. в branch_1
+    double sum = x + y + z;
+    int integer_part_sum = static_cast<int>(sum);
+    std::cout << "Целая часть суммы: " << integer_part_sum << std::endl;
 }
 
 void findFractionalPartGeometricMean() {
