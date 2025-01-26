@@ -75,5 +75,5 @@ void findIntegerPartSum() {
 }
 
 void findFractionalPartGeometricMean() {
-    //Разрабатывает Колмаков В.Г. в branch_1
+    //Разрабатывает Колмаков В.Г. в branch_2
 }
